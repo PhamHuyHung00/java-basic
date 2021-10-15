@@ -15,7 +15,7 @@ public class lesson2 {
 
 
         System.out.println(s.substring(0,19) +s.substring(19,20).toUpperCase()+s.substring(20,25) +s.substring(25,26).toUpperCase() +s.substring(26,28) );
-        //viết hoa tất cả chữ hoa trong chuỗi//
+        //viết hoa tất cả chữ k hoa trong chuỗi//
 
 
         enumExample.THE_DAY theDay = enumExample.THE_DAY.MONDAY; //enum cho thứ2, thứ 3............
