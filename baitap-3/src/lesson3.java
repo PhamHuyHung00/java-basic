@@ -10,10 +10,11 @@ public class lesson3 {
 
         System.out.println("Nhập chiều cao của bạn  : ");
         double doubleNumber = sc.nextDouble();
+        double bMI = doubleNumber1/(doubleNumber*2);
 
         System.out.println("Cân nặng của bạn là : "+doubleNumber1 +" kg" );
         System.out.println("Chiều cao của bạn là : "+doubleNumber +" m");
-        System.out.println("Chỉ số BMI của bạn là :" +doubleNumber1/(doubleNumber*2));
+        System.out.println("Chỉ số BMI của bạn là :" +bMI);
         //in ra màn hình chỉ số BMI
 
 
