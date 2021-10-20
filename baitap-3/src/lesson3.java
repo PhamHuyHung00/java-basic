@@ -13,6 +13,9 @@ public class lesson3 {
          thuong(4,4);
 
 
+
+
+
     }
         public  static double math( double x, double y){
         return Math.sqrt(x * x + y * y);
@@ -38,6 +41,7 @@ public class lesson3 {
     public static void thuong(int x, int y){
         System.out.printf("\nThương của %d và %d bằng: %d", x, y, x/y);
     }
+
 
 
 
