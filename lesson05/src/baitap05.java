@@ -12,11 +12,13 @@ public class baitap05 {
     static void lessonOne() {
         String s = "hello every one";
         int count = 0;
+        int index = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'e')
+                System.out.println(i);
                 count++;
         }
-        System.out.println("Số lần xuất hiện chữ e trong chuỗi " + s + " là " + count);
+        System.out.println("Số lần xuất hiện chữ e trong chuỗi " + s + " là " + count );
     }
 
     static void lessonTwo(String strA, String strB){
