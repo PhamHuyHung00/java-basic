@@ -4,15 +4,14 @@ public class baitap05 {
 
     public static void main(String[] args) {
         lessonOne();
-        lessonTwo("happy new year ", "new");
-        lessonThree();
+//        lessonTwo("happy new year ", "new");
+//        lessonThree();
 
     }
 
     static void lessonOne() {
         String s = "hello every one";
         int count = 0;
-        int index = 0;
         for (int i = 0; i < s.length(); i++) {
             if (s.charAt(i) == 'e')
                 System.out.println(i);
