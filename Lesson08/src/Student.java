@@ -11,10 +11,10 @@ public class Student {
         this.practice_Point = practice_Point;
     }
 
-    public float medium_Score(){
+    public float medium_Score() {
         this.theoretical_Point = theoretical_Point;
         this.practice_Point = practice_Point;
-        return (theoretical_Point + practice_Point)/2;
+        return (theoretical_Point + practice_Point) / 2;
     }
 
     @Override

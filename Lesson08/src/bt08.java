@@ -5,6 +5,19 @@ public class bt08 {
     }
 
     public static void main(String[] args) {
+        Student hv1 = new Student(1800332, "Phạm Huy Hùng", 9.4f, 9.5f);
+        Student hv2 = new Student(1234567, "Phạm Văn Ahihi", 5.2f, 4.3f);
+        Student[] arr = new Student[2];
+        arr[0] = hv1;
+        arr[1] = hv2;
+//        System.out.println(hv1.toString());
+//        System.out.println(hv2.toString());
+        for (Student s : arr) {
+            System.out.println(s);
+        }
+        System.out.println("Điểm TB của hv1 : " + hv1.medium_Score());
+        System.out.println("Điểm TB của hv2 : " + hv2.medium_Score());
+
 //        Dog d1 = new Dog();
 //        d1.breed = "bulldog";
 //        d1.size = "Large";
@@ -40,18 +53,7 @@ public class bt08 {
 //            System.out.println(p);
 
 
-        Student hv1 = new Student(1800332, "Phạm Huy Hùng", 9.4f, 9.5f);
-        Student hv2 = new Student(1234567, "Phạm Văn Ahihi", 5.2f, 4.3f);
-        Student[] arr = new Student[2];
-        arr[0] = hv1;
-        arr[1] = hv2;
-//        System.out.println(hv1.toString());
-//        System.out.println(hv2.toString());
-        for (Student s : arr) {
-            System.out.println(s);
-        }
-        System.out.println("Điểm TB của hv1 : " + hv1.medium_Score());
-        System.out.println("Điểm TB của hv2 : " + hv2.medium_Score());
+
     }
 }
 
