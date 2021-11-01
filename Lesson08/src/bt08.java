@@ -1,9 +1,6 @@
 import jdk.jfr.Category;
 
 public class bt08 {
-    public bt08() {
-    }
-
     public static void main(String[] args) {
         Student hv1 = new Student(1800332, "Phạm Huy Hùng", 9.4f, 9.5f);
         Student hv2 = new Student(1234567, "Phạm Văn Ahihi", 5.2f, 4.3f);
