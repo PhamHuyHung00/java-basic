@@ -8,7 +8,7 @@ import com.google.gson.reflect.TypeToken;
 
 public class PersonRepository {
     public void getData() {
-        ArrayList<Person> listPerson = new ArrayList<Person>();
+        ArrayList<Person> listPerson = new ArrayList<>();
         try {
             Gson gson = new Gson();
             FileReader reader = new FileReader("ReadFile/movie.json");

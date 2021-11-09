@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ReadFile" target="17" />
+      <module name="ReadFile" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
