@@ -45,7 +45,7 @@ public class FptRepository {
 
     public void printPrice(){
         for (int i = 0; i <products.size(); i++) {
-            if (products.get(i).getPrice()<2000000){
+            if (products.get(i).getPrice()<=2000000){
                 System.out.println(products.get(i));
             }
 
@@ -74,7 +74,7 @@ public class FptRepository {
     }
     public void printPrice5(){
         for (int i = 0; i <products.size(); i++) {
-            if (products.get(i).getPrice()>13000000){
+            if (products.get(i).getPrice()>=13000000){
                 System.out.println(products.get(i));
             }
         }
