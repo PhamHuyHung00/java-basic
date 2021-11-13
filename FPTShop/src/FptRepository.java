@@ -1,4 +1,7 @@
+
+
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class FptRepository {
@@ -21,46 +24,20 @@ public class FptRepository {
         }
     }
 
-    public void printCategoryPhone() {
+    public void printCategory(Category category ) {
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getCategory() == Category.PHONE) {
+            if (products.get(i).getCategory()==category ){
                 System.out.println(products.get(i));
             }
 
         }
     }
 
-    public void printCategoryLaptop() {
+    public void printProduce() {
+        Scanner sc = new Scanner(System.in);
+        String produce = sc.nextLine();
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getCategory() == Category.LAPTOP) {
-                System.out.println(products.get(i));
-            }
-
-        }
-    }
-
-    public void printCategoryApple() {
-        for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getCategory() == Category.Apple) {
-                System.out.println(products.get(i));
-            }
-
-        }
-    }
-
-    public void printCategoryAccessory() {
-        for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getCategory() == Category.ACCESSORY) {
-                System.out.println(products.get(i));
-            }
-
-        }
-
-    }
-
-    public void printProduce(String produce) {
-        for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getProducer() == produce) {
+            if (products.get(i).getProducer().equalsIgnoreCase(produce)) {
                 System.out.println(products.get(i));
             }
         }
@@ -76,21 +53,21 @@ public class FptRepository {
     }
     public void printPrice2(){
         for (int i = 0; i <products.size(); i++) {
-            if (products.get(i).getPrice()>2000000 & products.get(i).getPrice()<4000000){
+            if (products.get(i).getPrice()>=2000000 & products.get(i).getPrice()<=4000000){
                 System.out.println(products.get(i));
             }
         }
     }
     public void printPrice3(){
         for (int i = 0; i <products.size(); i++) {
-            if (products.get(i).getPrice()>4000000 & products.get(i).getPrice()<7000000){
+            if (products.get(i).getPrice()>=4000000 & products.get(i).getPrice()<=7000000){
                 System.out.println(products.get(i));
             }
         }
     }
     public void printPrice4(){
         for (int i = 0; i <products.size(); i++) {
-            if (products.get(i).getPrice()>7000000 & products.get(i).getPrice()<13000000){
+            if (products.get(i).getPrice()>=7000000 & products.get(i).getPrice()<=13000000){
                 System.out.println(products.get(i));
             }
         }
@@ -104,9 +81,11 @@ public class FptRepository {
     }
 
 
-    public void printSearch(String name) {
+    public void printSearch() {
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
         for (int i = 0; i < products.size(); i++) {
-            if (products.get(i).getName() == name) {
+            if (products.get(i).getName().contains(name)) {
                 System.out.println(products.get(i));
             }
 
