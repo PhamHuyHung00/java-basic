@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2942a132-6cbf-4ba3-8f16-9bbc6dfe2910" name="Changes" comment="" />
+    <list default="true" id="2942a132-6cbf-4ba3-8f16-9bbc6dfe2910" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Collections/Collections.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GenericExercises/GenericExercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson12/Lesson12.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson13/Lesson13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson13/src/Lesson13.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson14/Lesson14.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lesson15/Lesson15.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LinhkedListExample/LinhkedListExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MapExample/MapExample.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Person/Person.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../QueueExemple/QueueExemple.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SetExample/SetExample.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +40,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson12" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -52,5 +67,16 @@
       <updated>1636642768085</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
