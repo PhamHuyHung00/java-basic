@@ -29,7 +29,7 @@ public class Main {
                 }
                 break;
             case 2:
-                Map<String, Integer> listProducer = new HashMap<>();
+                Map<String, Integer> listProducer = new HashMap<String,Integer>();
                 for (int i = 0; i < fptShop.size(); i++) {
                     if (listProducer.get(fptShop.get(i).getProducer()) == null) {
                         listProducer.put(fptShop.get(i).getProducer(), 1);
@@ -38,12 +38,20 @@ public class Main {
                     }
                 }
                 System.out.println("Liệt kê mỗi hãng có bao nhiêu sản phẩm");
-                for (Map.Entry<String, Integer> entry : listProducer.entrySet()) {
-                    System.out.println(entry.getKey() + " - " + entry.getValue());
-                }
+//                for (Map.Entry<String, Integer> entry : listProducer.entrySet()) {
+//                    System.out.println(entry.getKey() + " - " + entry.getValue());
+//                }
+                printMap(listProducer);
                 break;
             case 3:
                 repo.printSearch();
+        }
+
+    }
+
+    public static void printMap(Map<String, Integer> map) {
+        for (Map.Entry<String, Integer> entry : map.entrySet()){
+            System.out.println(entry.getKey()+ " - " +entry.getValue());
         }
     }
 }
