@@ -36,6 +36,6 @@ public class NetflixRepository {
 
     public void printMovieGenre(String movieGenre) {
         System.out.println("---------- Liệt kê phim theo thể loại ---------");
-        netflix.stream().filter(num -> num.getMovieGenre().equalsIgnoreCase(movieGenre)).forEach(System.out::println);
+        netflix.stream().filter(num -> num.getMovieGenre().contains(movieGenre)).forEach(System.out::println);
     }
 }
